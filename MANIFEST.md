@@ -10,13 +10,12 @@ copyright_owner:
   - Dominic Spill
   - Michael Ossmann
 dependencies:
-  - gnuradio
+  - gnuradio (>= 3.10.0)
 repo: https://github.com/greatscottgadgets/gr-bluetooth
-stable_release: HEAD
+stable_release: maint-3.10
 icon:
 ---
 
 gr-bluetooth is an implementation of the Bluetooth baseband layer for GNU Radio for experimentation and teaching students about Software Defined Radio, it should not be used for Bluetooth communications as it is not a complete software stack.
 
-The gr-bluetooth web site is: http://gr-bluetooth.sourceforge.net
-
+This is the GNU Radio 3.8–3.10 port of [greatscottgadgets' original repository](https://github.com/greatscottgadgets/gr-bluetooth).
